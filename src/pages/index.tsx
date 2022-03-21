@@ -72,6 +72,7 @@ const Home: NextPage = () => {
               </label>
               <div className="mt-1">
                 <input
+                  value={emailAddress}
                   required={true}
                   onChange={handleEmailAddressInput}
                   id="email"
@@ -88,6 +89,7 @@ const Home: NextPage = () => {
               </label>
               <div className="mt-1">
                 <input
+                  value={userName}
                   required={true}
                   onChange={handleUserNameInput}
                   type="text"
